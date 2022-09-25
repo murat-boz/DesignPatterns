@@ -1,0 +1,14 @@
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.csproj.AssemblyReference.cache
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.AssemblyInfoInputs.cache
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.AssemblyInfo.cs
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.csproj.CoreCompileInputs.cache
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.exe
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.deps.json
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.runtimeconfig.json
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.runtimeconfig.dev.json
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.dll
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\bin\Debug\netcoreapp3.1\SpecificationsPattern.pdb
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.dll
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.pdb
+C:\Users\murat\Documents\Visual Studio 2022\Projeler\DesignPatterns\SpecificationsPattern\obj\Debug\netcoreapp3.1\SpecificationsPattern.genruntimeconfig.cache
