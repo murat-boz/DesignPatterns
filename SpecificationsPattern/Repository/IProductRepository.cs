@@ -9,6 +9,6 @@ namespace SpecificationsPattern.Repository
     {
         Product GetById(Guid Id);
         List<Product> GetAll();
-        List<Product> GetInfoAboutProducts(BaseSpecification<Product> specification);
+        List<Product> GetInfoAboutProducts(Specification<Product> specification);
     }
 }

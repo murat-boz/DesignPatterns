@@ -3,7 +3,7 @@ using System.Linq.Expressions;
 
 namespace SpecificationsPattern.Specification
 {
-    public abstract class BaseSpecification<T> : ISpecification<T>
+    public abstract class Specification<T> : ISpecification<T>
     {
         /// <summary>
         /// Returns a <see cref="bool"/> value which indicates whether the specification
@@ -26,9 +26,14 @@ namespace SpecificationsPattern.Specification
         /// Implicitly converts a specification to expression.
         /// </summary>
         /// <param name="specification"></param>
-        public static implicit operator Expression<Func<T, bool>>(BaseSpecification<T> specification)
+        public static implicit operator Expression<Func<T, bool>>(Specification<T> specification)
         {
             return specification.ToExpression();
+        }
+
+        public Specification<T> And(Specification<T> specification)
+        {
+            return new AndSpecification<T>(this, specification);
         }
     }
 }

@@ -25,7 +25,7 @@ namespace SpecificationsPattern.Repository
             return this.Products.FirstOrDefault(x => x.Id == Id);
         }
 
-        public List<Product> GetInfoAboutProducts(BaseSpecification<Product> specification)
+        public List<Product> GetInfoAboutProducts(Specification<Product> specification)
         {
             return this.Products.AsQueryable<Product>()
                                 .Where(specification)
@@ -52,6 +52,12 @@ namespace SpecificationsPattern.Repository
                 {
                     Id      = Guid.NewGuid(),
                     Name    = "Third Product",
+                    IsExist = true
+                },
+                new Product
+                {
+                    Id      = Guid.NewGuid(),
+                    Name    = string.Empty,
                     IsExist = true
                 }
             };

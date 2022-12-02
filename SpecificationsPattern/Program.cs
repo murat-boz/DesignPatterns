@@ -25,7 +25,8 @@ namespace SpecificationsPattern
 
         private static void SatisfiedByExpression(IProductRepository productRepository)
         {
-            var list = productRepository.GetInfoAboutProducts(new IsProductExistSpecification());
+            var list = productRepository.GetInfoAboutProducts(
+                new IsProductExistSpecification().And(new IsNameNotEmptySpecification()));
 
             foreach (var item in list)
             {
@@ -38,10 +39,11 @@ namespace SpecificationsPattern
             var list = productRepository.GetAll();
 
             var isProductExistSpecification = new IsProductExistSpecification();
+            var isNameEmptySpecification    = new IsNameNotEmptySpecification();
 
             foreach (var item in list)
             {
-                if (isProductExistSpecification.IsSatisfiedBy(item))
+                if ((isNameEmptySpecification).IsSatisfiedBy(item))
                 {
                     Console.WriteLine(item.Name);
                 }
