@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{7D143A5F-E034-47F2-91D0-DC4DBEB7E206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{5DB78CBA-F9A1-4101-9C97-151BA0F5BE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{5DB78CBA-F9A1-4101-9C97-151BA0F5BE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{C516829A-0AF5-4672-84A5-F417E89F6C5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{5DB78CBA-F9A1-4101-9C97-151BA0F5BE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DB78CBA-F9A1-4101-9C97-151BA0F5BE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DB78CBA-F9A1-4101-9C97-151BA0F5BE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C516829A-0AF5-4672-84A5-F417E89F6C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C516829A-0AF5-4672-84A5-F417E89F6C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C516829A-0AF5-4672-84A5-F417E89F6C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C516829A-0AF5-4672-84A5-F417E89F6C5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
