@@ -1,4 +1,5 @@
-﻿using SpecificationsPattern.Repository;
+﻿using SpecificationsPattern.Extensions;
+using SpecificationsPattern.Repository;
 using SpecificationsPattern.Specification;
 using System;
 

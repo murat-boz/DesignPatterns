@@ -30,10 +30,5 @@ namespace SpecificationsPattern.Specification
         {
             return specification.ToExpression();
         }
-
-        public Specification<T> And(Specification<T> specification)
-        {
-            return new AndSpecification<T>(this, specification);
-        }
     }
 }
